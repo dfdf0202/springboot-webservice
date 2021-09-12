@@ -25,6 +25,7 @@ before_deploy:
     - mv before-deploy/before-deploy.zip deploy/springboot-webservice.zip # deploy로 zip파일 이동
 
 
+
 deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS_KEY
